@@ -22,7 +22,14 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <h1>Welcome to WeatherBloc!</h1>
+
+        <form class="search-form">
+            Enter your address (street, city, zip code):<br/>
+            <input type="text" name="address" />
+            <input type="submit" value="Submit" id="submit-button"/>
+        </form>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -39,4 +46,8 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
     </body>
+
+    <footer>
+        Powered by <a href="http://forecast.io/">forecast.io</a> and <a href="https://developers.google.com/maps/">Google Maps</a>
+    </footer>
 </html>
